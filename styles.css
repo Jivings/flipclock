@@ -1,0 +1,45 @@
+@font-face {
+	font-family: digital;
+	src: url('./lib/font/DS-DIGIT.TTF');
+	font-size: 3em;
+}
+
+div.time {
+	font-family: digital;
+	font-size: 4em;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	position: relative;
+	float: left;
+}
+
+div.time > .gap, .flip {
+
+	float: left;
+	display: inline-block;
+	padding: 2px;
+	text-align: center;
+}
+
+div.time > .flip {
+	border: 1px solid #CCC;
+	background-color: grey;
+	width: 1.2em;
+	height: 1em;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+div.time > .top {
+
+}
+
+div.time > .flipped {
+	
+}
+
+
+div.time > .seconds {
+
+}
+
